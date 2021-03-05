@@ -1,3 +1,8 @@
+<head>
+    ...
+    <link rel="icon" href="photos/favicon.png">
+  </head>
+
 ## Shadowcraft Sites
 
 [Dynmap](https://map.shadowcraft.site)
