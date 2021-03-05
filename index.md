@@ -1,8 +1,4 @@
-
-	<head>
-		...
-		<link rel="shortcut icon" type="image/png" href="photos/favicon.png">
-	</head>
+<link rel="shortcut icon" type="image/png" href="photos/favicon.png">
 
 ## Shadowcraft Sites
 
