@@ -1,5 +1,6 @@
+<head>
 <link rel="shortcut icon" type="image/png" href="photos/favicon.png">
-
+</head>
 ## Shadowcraft Sites
 
 [Dynmap](https://map.shadowcraft.site)
