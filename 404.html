@@ -1,1 +1,56 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>--</title>
+  <meta name="description" content="Error Page">
+  <meta name="author" content="Toni">
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  </script>
+    <style> 
+html { 
+  background: url("error.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+  </style>
+
+</head>
+<body style="background-color:#2e2e2e;">
+
+<h1 style="text-align: center; font-size:100px; font-family: Candara; color:#005899;"><strong>This page is unavalible!</strong></h1>
+<p style="text-align: center; font-size:35px; font-family: Courier New; color:#00c0c0;">You'll be automatically redirected to the homepage in <strong><span id="count">5</span> seconds...</strong></p>
+<br>
+<h4 style="text-align: center; font-size:20px; font-family: Courier New; color:#ffffff;"><strong>Discord:</strong> Mr Shadow#4898</h4>
+
+<script type="text/javascript">
+
+window.onload = function(){
+
+(function(){
+  var counter = 5;
+
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    if (counter === 0) {
+        clearInterval(counter);
+    }
+
+  }, 1000);
+
+})();
+
+}
+
+</script>
+
+<meta http-equiv="refresh" content="6;url=https://shadowcraft.site/" />
+
+</body>
+</html>
