@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="bower_components/gridism/gridism.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/cobyism/gridism/master/gridism.css">
 	<link rel="icon" type="image/png" href="/favicon.png"/>
 
 {% seo %}
@@ -29,6 +29,12 @@
         </section>
       </div>
     </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
 	
 	<footer>
 		<div class="grid">
@@ -36,18 +42,12 @@
 			<p>
 				Hosted on
 				<a href="https://github.com">
-				<img src="http://owner.aeonbits.org/img/footer-logo.png" alt="GitHub • Social coding">
+				<img src="https://owner.aeonbits.org/img/footer-logo.png" alt="GitHub • Social coding">
 				</a>
 			</p>
 		</div>
 		</div>
 	</footer>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
 
     {% if site.google_analytics %}
       <script>
